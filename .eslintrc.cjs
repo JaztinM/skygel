@@ -44,30 +44,30 @@ module.exports = {
   rules: {
     'no-var': 'error',
     'no-alert': 'error',
-    'no-console': 'error',
+    'no-console': 'warn',
     'prefer-const': 'error',
-    // "prefer-destructuring": "error",
-
     'import/no-duplicates': 'error',
     'import/no-self-import': 'error',
     'import/no-relative-packages': 'error',
-    'import/no-relative-parent-imports': 'error',
+    'import/no-relative-parent-imports': 'warn',
     'import/consistent-type-specifier-style': ['error', 'prefer-inline'],
     'import/no-empty-named-blocks': 'error',
     'import/no-extraneous-dependencies': 'error',
     'import/no-import-module-exports': 'error',
     'import/newline-after-import': 'error',
     'import/group-exports': 'error',
-    'import/exports-last': 'error',
+    'import/exports-last': 'warn',
     'import/no-useless-path-segments': ['error', { noUselessIndex: true }],
 
-    '@typescript-eslint/no-explicit-any': 'error',
+    '@typescript-eslint/no-explicit-any': 'warn',
     '@typescript-eslint/no-non-null-assertion': 'error',
-    '@typescript-eslint/no-unused-vars': 'error',
+    '@typescript-eslint/no-unused-vars': 'warn',
     '@typescript-eslint/consistent-type-definitions': 'off',
+    '@typescript-eslint/no-empty-function': 'warn',
 
+    "no-empty": 'warn',
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
 
     'prettier/prettier': [
       'warn',

@@ -25,6 +25,7 @@ export default defineConfig({
       exclude: [/\.(br)$/, /\.(gz)$/],
     }),
   ],
+  base: '/skygel/',
   test: {
     globals: true,
     watch: false,

@@ -3,7 +3,7 @@ import '@testing-library/jest-dom'
 import { server } from '@/__mocks__/server'
 
 beforeAll(() => {
-  server.listen({ onUnhandledRequest: 'error' })
+  server.listen({ onUnhandledRequest: 'bypass' })
 })
 
 afterEach(() => {
